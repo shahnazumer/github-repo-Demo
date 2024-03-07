@@ -2,9 +2,9 @@ name: Pytest Flask Pipeline
 
 on:
   push:
-    branches: [ My_New_Branch ]
+    branches: [ main ]
   pull_request:
-    branches: [ My_New_Branch ]
+    branches: [ main ]
 
 jobs:
   build:
@@ -73,7 +73,7 @@ jobs:
         pip install pytest
         export PYTHONPATH=srs
         pytest
+
+    
+        export FLASK_ENV=testing
         pytest
-=======
-        pytest
->>>>>>> My_New_Branch
