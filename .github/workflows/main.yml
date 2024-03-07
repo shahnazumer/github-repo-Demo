@@ -76,4 +76,8 @@ jobs:
 
     
         export FLASK_ENV=testing
+<<<<<<< HEAD
         pytest
+=======
+        pytest
+>>>>>>> My_New_Branch
