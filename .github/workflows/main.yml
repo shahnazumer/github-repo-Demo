@@ -2,9 +2,9 @@ name: Pytest Flask Pipeline
 
 on:
   push:
-    branches: [ main ]
+    branches: [ My_New_Branch ]
   pull_request:
-    branches: [ main ]
+    branches: [ My_New_Branch ]
 
 jobs:
   build:
