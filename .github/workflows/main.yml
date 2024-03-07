@@ -3,7 +3,7 @@ name: CI/CD for Python Project
 on:
   push:
     branches:
-      - NB-1
+      - My_New_Branch
 
 jobs:
   build:
